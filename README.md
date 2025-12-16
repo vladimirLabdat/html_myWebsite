@@ -1,2 +1,2 @@
-# html_myWebsite
-My website in pure html
+# html_myResume
+My Resume in pure html
