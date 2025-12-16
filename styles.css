@@ -1,0 +1,43 @@
+input[type=tel]{
+    background:url(telefono.jpg) no-repeat center right
+}
+
+input:focus{
+    background-color:yellow;
+}
+
+input:invalid{
+    color:red;
+}
+
+input:valid{
+    color:green;
+}
+
+input:required{
+    border: 3px solid #F00;
+}
+
+input:optional{
+    border: 3px solid #999;
+}
+
+input:in-range{
+    color: gray;
+}
+
+input:out-of-range{
+    border: red;
+}
+
+input:read-only{
+    border: 3px solid #F00;
+}
+
+input:read-write{
+    border: 1px solid #000;
+}
+
+input:focus:required:invalid{
+    background-color: #F00;
+}
